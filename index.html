@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="index.js" defer></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Calculator Application</title>
+  </head>
+  <body>
+    <h1>Welcome to calculator</h1>
+
+    <div id="calculator">
+        <div id="result">
+            <div id ="answer">
+                <p id ="output-value"></p>
+            </div>
+        </div>
+
+        <div id="buttons">
+            <button id="1" value="1" onclick="numberEntered('1')">1</button>
+            <button id="2" value="2" onclick="numberEntered('2')">2</button>
+            <button id="3" value="3" onclick="numberEntered('3')">3</button><br>
+            <button id="4" value="4" onclick="numberEntered('4')">4</button>
+            <button id="5" value="5" onclick="numberEntered('5')">5</button>
+            <button id="6" value="6" onclick="numberEntered('6')">6</button><br>
+            <button id="7" value="7" onclick="numberEntered('7')">7</button>
+            <button id="8" value="8" onclick="numberEntered('8')">8</button>
+            <button id="9" value="9" onclick="numberEntered('9')">9</button><br>
+            <button id="0" value="0" onclick="numberEntered('0')">0</button>
+            <button id="+" value="+" onclick="operandEnter('+')">+</button>
+            <button id="/" value="/" onclick="operandEnter('/')">/</button><br>
+            <button id="*" value="*" onclick="operandEnter('*')">*</button>
+            <button id="-" value="-" onclick="operandEnter('-')">-</button>
+            <button id="=" value="=" onclick="calculate()">=</button>
+
+
+        </div>
+
+    </div>
+
+    
+    
+    
+    
+    
+    
+    
+
+
+     
+  </body>
+</html>
